@@ -20,14 +20,13 @@ Avant de pouvoir exécuter le jeu, assurez-vous d'avoir Python installé sur vot
 
 2. Installez les dépendances nécessaires :
 
-    ```bash
-    pip install google.generativeai asyncio termcolor
+   ```bash
+   pip install google.generativeai asyncio termcolor
 
 3. Exécution du projet
 
 Une fois les dépendances installées, vous pouvez exécuter le jeu en lançant le fichier `main.py` :
 
-    ```bash
     python main.py
 
 Le jeu démarrera directement dans votre terminal, et vous pourrez suivre les instructions pour jouer au Yam.
@@ -41,14 +40,12 @@ Pour ce faire, vous aurez juste besoin de trois étapes :
 
 Trouvez ces lignes :
 
-    ```bash
     # Funcs 
     from ia_crisc import *
     #from ia_gemini import *
 
 Modifiez les pour :
 
-    ```bash
     # Funcs 
     #from ia_crisc import *
     from ia_gemini import *
@@ -57,13 +54,11 @@ Modifiez les pour :
 
 Trouvez ces lignes :
 
-    ```bash
     from ia_crisc import *
     #from ia_gemini import *
 
 Modifiez les pour :
 
-    ```bash
     #from ia_crisc import *
     from ia_gemini import *
 
@@ -71,7 +66,6 @@ Modifiez les pour :
 
 Dans `ia_gemini.py` vous trouverez cette ligne :
 
-    ```bash
     genai.configure(api_key="")
 
 Elle est très cool cette ligne ! Mais il manque un truc...
@@ -86,7 +80,6 @@ Copiez la clé qu'il vous donne, par exemple : `AIzaSyCdNnxPFpyWBd2gy4Ah6_9nP1pP
 
 Et pour finir remplisez :
 
-    ```bash
     genai.configure(api_key="[Votre clé API]")
 
 Et voilà ! Executez `main.py` et hop !
