@@ -87,4 +87,5 @@ Et voilà ! Executez `main.py` et hop !
 
 ## Auteurs :
 Oh64 : Développement de la logique du jeu.
+
 mthss23 et heqdshqker : Affichage graphique du jeu
